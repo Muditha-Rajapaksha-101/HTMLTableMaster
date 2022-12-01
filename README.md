@@ -31,7 +31,7 @@ htmlTable = HTMLTable(file.read() , -1 , hasHeading=(True))
 ```
 htmlTable = htmlTable.murgeRows([0 ,1, 2 ])
 
-htmlTable =htmlTable.removeColumn([-1])
+htmlTable = htmlTable.removeColumn([-1])
 
 print(htmlTable..getString())
 
